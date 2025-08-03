@@ -20,7 +20,7 @@ while read -r accession; do
     unzip -o "$ZIP_PATH" -d "$TARGET_DIR"
     rm "$ZIP_PATH"
 
-    # Find and preserve .fna and seq-report; move them to a clean subfolder, remove everything else
+    # Find and preserve .fna; move them to a clean subfolder, remove everything else
     PRESERVE_DIR="${TARGET_DIR}/kept"
     mkdir -p "$PRESERVE_DIR"
 
