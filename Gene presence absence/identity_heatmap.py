@@ -29,6 +29,8 @@ Example:
 Notes:
     - The script builds a custom colormap with 5% steps and highlights key breakpoints (0%, 30%, 50%, 100%).
     - Ensure the input file path is correct; relative or absolute paths are accepted.
+    Author:
+    Aqib Javaid
 """
 
 import argparse
