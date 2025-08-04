@@ -25,6 +25,8 @@ Requirements:
 
 Example:
     ./gc_skew_locus_tag.py -g prokka_gbks/ -l targets.txt -o gc_comparison.tsv
+    Author:
+    Aqib Javaid
 """
 import os
 from Bio import SeqIO
