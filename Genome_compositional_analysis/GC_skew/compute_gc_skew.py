@@ -10,7 +10,7 @@ Description:
 
 Input:
     - Folder of GenBank (.gbk/.gbff) files (e.g., Prokka outputs)
-    - Plain text file of locus_tag IDs (one per line)
+    - Plain text file of BA gene locus_tag IDs (one per line)
 
 Output:
     - TSV with per-gene and per-genome GC% and GC skew, plus differences.
@@ -24,7 +24,7 @@ Requirements:
     - pandas
 
 Example:
-    ./gc_skew_locus_tag.py -g prokka_gbks/ -l targets.txt -o gc_comparison.tsv
+    ./compute_gc_skew.py -g prokka_gbks/ -l adc_locus_tags.txt -o adc_gc_comparison.tsv
     Author:
     Aqib Javaid
 """
