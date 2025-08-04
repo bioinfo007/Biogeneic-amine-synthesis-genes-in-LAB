@@ -7,16 +7,25 @@ Before running any scripts, ensure your environment has the following tools and 
 
 **Required Software & Libraries**
 Python 3.7 or higher
+
 Biopython
+
 pandas
+
 numpy
+
 seaborn
+
 matplotlib
+
 scipy
+
 statsmodels
+
 You can install the Python packages using: pip install biopython pandas numpy seaborn matplotlib scipy statsmodels
 
 **Notes**
+
 Make sure paths in the scripts or command lines point correctly to your input data directories/files.
 
 It is recommended to run these scripts in a virtual environment to avoid package conflicts.
