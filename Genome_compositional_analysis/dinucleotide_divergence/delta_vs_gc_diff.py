@@ -3,7 +3,7 @@ Scatter plot of GC% difference (gene vs genome) versus Karlin δ* for biogenic a
 Colored by gene type with threshold lines to highlight compositional bias cutoffs.
 
 Input:
-- 'combine_compositional_result_final.csv' with columns: 'gc_diff', 'Delta_Star', 'Gene_Name'
+- 'combine_compositional_result.csv' with columns: 'gc_diff', 'Delta_Star', 'Gene_Name'
 
 Output:
 - Saves figure as 'delta_vs_gc_diff.png'
@@ -11,6 +11,8 @@ Output:
 Usage:
 - Make sure the input CSV is in the working directory.
 - Run this script to generate and save the scatter plot.
+Author:
+    Aqib Javaid
 """
 
 import pandas as pd
@@ -18,7 +20,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("combine_compositional_result_final.csv")
+df = pd.read_csv("combine_compositional_result.csv")
 
 # Plot GC diff vs δ*
 plt.figure(figsize=(8, 6))
