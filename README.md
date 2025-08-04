@@ -23,7 +23,7 @@ scipy
 
 statsmodels
 
-You can install the Python packages using: pip install biopython pandas numpy seaborn matplotlib scipy statsmodels
+You can install the Python packages using: **pip install biopython pandas numpy seaborn matplotlib scipy statsmodels**
 
 **Notes**
 
