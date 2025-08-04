@@ -34,6 +34,8 @@ Requirements:
 
 Example:
     python3 plot_BA_gene_presence.py
+    Author:
+    Aqib Javaid
 
 """
 
