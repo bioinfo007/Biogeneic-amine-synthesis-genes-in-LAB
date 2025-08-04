@@ -28,6 +28,8 @@ Requirements:
 Note:
 - GFF file must have CDS features with IDs matching Gene_ID in mapping CSV
 - Genome FASTA headers must match GFF sequence names
+Author:
+    Aqib Javaid
 """
 import os
 import argparse
