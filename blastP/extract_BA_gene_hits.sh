@@ -10,7 +10,7 @@ Description:
     found in BLASTP .tsv files under BA_gene_hits directory.
 
 Usage:
-    ./extract_fasta_from_blast_hits.sh [tsv_folder] [combined_faa] [output_folder]
+    ./extract_BA_gene_hits.sh [tsv_folder] [combined_faa] [output_folder]
 
 Defaults (if no arguments):
     tsv_folder: BA_gene_hits
@@ -19,6 +19,8 @@ Defaults (if no arguments):
 
 Requirements:
     - Python 3 with Biopython installed
+    Author:
+    Aqib Javaid
 USAGE
 
 TSV_DIR="${1:-BA_gene_hits}"
