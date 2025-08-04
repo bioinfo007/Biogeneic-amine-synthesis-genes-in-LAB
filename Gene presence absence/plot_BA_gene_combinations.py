@@ -35,6 +35,8 @@ Requirements:
 
 Example:
     python3 plot_BA_gene_combinations.py
+    Author:
+    Aqib Javaid
 
 """
 
