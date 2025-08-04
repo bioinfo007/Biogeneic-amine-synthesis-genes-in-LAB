@@ -19,6 +19,8 @@ Requirements:
 - seaborn
 - matplotlib
 - numpy
+Author:
+    Aqib Javaid
 """
 
 import pandas as pd
