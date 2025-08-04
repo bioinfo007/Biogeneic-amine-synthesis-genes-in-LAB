@@ -3,7 +3,7 @@ Scatter plot of absolute GC skew difference (gene vs genome) versus Karlin δ* f
 Colored by gene type with cutoff lines indicating compositional bias thresholds.
 
 Input:
-- 'combine_compositional_result_final.csv' with columns: 'skew_diff', 'Delta_Star', 'Gene_Name'
+- 'combine_compositional_result.csv' with columns: 'skew_diff', 'Delta_Star', 'Gene_Name'
 
 Output:
 - Saves figure as 'delta_vs_abs_gc_skew_diff.png'
@@ -11,6 +11,8 @@ Output:
 Usage:
 - Ensure input CSV is in the working directory.
 - Run this script to generate and save the scatter plot.
+Author:
+    Aqib Javaid
 """
 
 import pandas as pd
@@ -18,7 +20,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv("combine_compositional_result_final.csv")
+df = pd.read_csv("combine_compositional_result.csv")
 
 # Use absolute value of skew_diff for x-axis
 df['abs_skew_diff'] = df['skew_diff'].abs()
