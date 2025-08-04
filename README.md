@@ -6,6 +6,7 @@ This repository contains custom Python scripts developed for the comprehensive a
 Before running any scripts, ensure your environment has the following tools and Python packages installed:
 
 **Required Software & Libraries**
+
 Python 3.7 or higher
 
 Biopython
