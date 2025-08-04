@@ -22,6 +22,8 @@ Requirements:
 - pandas
 - scipy
 - statsmodels
+Author:
+    Aqib Javaid
 """
 import pandas as pd
 import itertools
