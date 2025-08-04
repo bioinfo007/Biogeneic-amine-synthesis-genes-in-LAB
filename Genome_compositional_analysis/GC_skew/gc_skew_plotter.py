@@ -31,6 +31,8 @@ Requirements:
 
 Example:
     python3 gc_skew_plotter.py --input-dir ./gc_data --output-dir ./plots
+    Author:
+    Aqib Javaid
 """
 
 import os
