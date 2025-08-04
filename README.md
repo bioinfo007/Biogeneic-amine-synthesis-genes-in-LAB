@@ -7,7 +7,7 @@ Before running any scripts, ensure your environment has the following tools and 
 
 **Required Software & Libraries**
 
-Python 3.7 or higher
+**Python 3.7 or higher**
 
 Biopython
 
