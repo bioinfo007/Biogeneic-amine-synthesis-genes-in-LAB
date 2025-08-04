@@ -28,6 +28,8 @@ Usage:
 Requirements:
     - Python 3
     - pandas, numpy, matplotlib installed (e.g., pip install pandas numpy matplotlib)
+    Author:
+    Aqib Javaid
 """
 
 import pandas as pd
