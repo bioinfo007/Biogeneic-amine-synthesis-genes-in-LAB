@@ -27,7 +27,7 @@ Example:
         --output BA_gene_matrix.csv
 
 Author:
-    Aqib — Aug 2025
+    Aqib Javaid
 """
 
 import argparse
