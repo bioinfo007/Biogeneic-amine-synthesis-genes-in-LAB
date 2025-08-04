@@ -6,7 +6,7 @@ extract_fasta_from_blast_hits.sh
 --------------------------------
 
 Description:
-    Extract protein sequences from combined_LAB.faa based on locus tags
+    Extract protein sequences from combined_LAB.faa (combined protein CDSs obtained from prokka) based on locus tags
     found in BLASTP .tsv files under BA_gene_hits directory.
 
 Usage:
