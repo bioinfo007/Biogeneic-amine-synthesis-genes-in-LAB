@@ -38,6 +38,8 @@ Install dependencies with:
 Notes:
     - Countries with fewer than `min_samples` isolates are excluded for that gene.
     - Prevalence is shown in percentage, with Wilson 95% confidence intervals in hover tooltip.
+    Author:
+    Aqib Javaid
 """
 
 import pandas as pd
