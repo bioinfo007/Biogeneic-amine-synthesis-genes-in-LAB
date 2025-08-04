@@ -22,6 +22,8 @@ Example:
 
 Requirements:
     - blastp in PATH
+    Author:
+    Aqib Javaid
 USAGE
 
 # Defaults
