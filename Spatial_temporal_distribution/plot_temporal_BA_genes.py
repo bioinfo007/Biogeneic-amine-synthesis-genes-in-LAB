@@ -34,6 +34,8 @@ Requirements:
 Notes:
     - Dates are scanned for a 4-digit year between 1900 and 2099.
     - Genes with zero counts across all years will still appear but may have empty trends.
+    Author:
+    Aqib Javaid
 """
 
 import pandas as pd
