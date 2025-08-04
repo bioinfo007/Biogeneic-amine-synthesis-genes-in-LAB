@@ -24,6 +24,8 @@ Requirements:
 Outputs:
     - Combined FASTA file of all proteins (combined_faa)
     - BLASTP database files inside blastp_database/ directory with prefix db_name
+    Author:
+    Aqib Javaid
 USAGE
 
 # Validate args
