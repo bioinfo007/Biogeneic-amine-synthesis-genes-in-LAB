@@ -4,8 +4,8 @@ Compute Karlin δ* (delta star) metric comparing dinucleotide relative abundance
 of genes versus their genome background sequences.
 
 Input:
-- Mapping CSV with columns: Genome, Gene_ID, (optional) Gene_Name
-- Genome directory containing paired genome FASTA (.fna) and annotation GFF (.gff) files
+- Mapping CSV with columns: Genome, Gene_ID, (optional) Gene_Name (ba_gene_mapping.csv file is provided)
+- Genome directory containing paired genome FASTA (.fna) and annotation GFF (.gff) files (Sample format files are included)
   named consistently by genome ID.
 
 For each gene:
